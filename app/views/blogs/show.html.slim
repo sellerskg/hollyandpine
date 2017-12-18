@@ -40,7 +40,7 @@ header
           .widget-title
             h4 RECENT POSTS
           .blog-posts-small
-            - @recent_blogs.each_with_index do |blog, i|
+            - @recent_blogs.reverse.each_with_index do |blog, i|
               .blog-post-small class="#{'first-post' if i == 0}#{'last-post' if i == @recent_blogs.size - 1}"
                 = link_to blog_path(blog) do
                   = image_tag(blog.main_image, size: '50')

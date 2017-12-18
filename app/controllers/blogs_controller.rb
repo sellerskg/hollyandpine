@@ -5,6 +5,6 @@ class BlogsController < ApplicationController
 
   def show
     @blog = Blog.friendly.find(params[:id])
-    @recent_blogs = Blog.all.last(5)
+    @recent_blogs = Blog.last(5)
   end
 end

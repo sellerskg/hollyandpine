@@ -14,6 +14,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'slim-rails'
 gem 'tinymce-rails'
 gem 'uglifier', '>= 1.3.0'
+gem 'will_paginate', '~> 3.1.0'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'

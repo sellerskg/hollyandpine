@@ -9,4 +9,5 @@ section#blog-masonry
   .container
     .row
       = render @blogs
-      
+  .container
+    = will_paginate @blogs

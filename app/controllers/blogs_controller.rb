@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   def index
-    @blogs = Blog.all.reverse
+    @blogs = Blog.active.order(:created_at).reverse
   end
 
   def show

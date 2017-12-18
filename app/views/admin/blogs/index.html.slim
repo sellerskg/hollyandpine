@@ -11,12 +11,14 @@ section
       tr
         th Date
         th Title
+        th Active
         th.text-right Actions
     tbody
       - @blogs.each do |blog|
         tr
           td = blog.created_at.localtime.strftime('%Y-%m-%d %l:%M %p')
           td = blog.title
+          td = blog.active
           td.text-right 
             = link_to blog_path(blog), class: 'btn btn-info' do
               i.fa.fa-eye

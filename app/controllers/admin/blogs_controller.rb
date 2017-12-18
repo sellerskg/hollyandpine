@@ -37,8 +37,19 @@ module Admin
     end
 
     private
+    def blog_attributes
+      [
+        :title, 
+        :subtitle, 
+        :cover_image, 
+        :main_image, 
+        :body,
+        :active
+      ]
+    end
+
     def blog_params
-      params.require(:blog).permit(:title, :subtitle, :cover_image, :main_image, :body)
+      params.require(:blog).permit(blog_attributes)
     end
 
     def set_blog

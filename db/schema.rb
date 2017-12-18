@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171218005714) do
+ActiveRecord::Schema.define(version: 20171218012115) do
 
   create_table "addresses", force: :cascade do |t|
     t.string   "country"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20171218005714) do
     t.string   "slug"
     t.string   "meta_keywords"
     t.string   "meta_description"
+    t.boolean  "active"
   end
 
   add_index "blogs", ["slug"], name: "index_blogs_on_slug", unique: true

@@ -1,0 +1,8 @@
+#blog-masonry {
+  .row {
+    .col-sm-4:nth-child(3n+1) {
+      clear: both;
+      float: left;
+    }
+  }
+}

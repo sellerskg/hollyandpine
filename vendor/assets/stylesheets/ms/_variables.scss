@@ -1,8 +1,8 @@
 // Font and Styles
 
-$secondary-font: 'PT Sans', sans-serif;
-$primary-font: 'Oswald', sans-serif;
-$regular: 400;
+$secondary-font: 'Playfair Display', sans-serif;
+$primary-font: 'Roboto', sans-serif;
+$regular: 100;
 $bold: 500;
 $xbold: 700;
 $xxbold: 900;
@@ -11,18 +11,18 @@ $letter-spacing-2x: 0.1em;
 
 // Theme Colors
 
-$default: #333;
-$default-hover: #111;
-$primary: #a60505;
-$primary-hover: #a8a3a3;
-$success: #93bc49;
-$success-hover: #7ea03f;
-$info: #54bedc;
-$info-hover: #3a9fbc;
-$warning: #e2a740;
-$warning-hover: #cb9538;
-$danger: #de3f3f;
-$danger-hover: #bf3535;
+$default: #bfbfbf;
+$default-hover: #c5c5c5;
+$primary: #d6bab3;
+$primary-hover: #eadcd9;
+$success: #d6bab3;
+$success-hover: #eadcd9;
+$info: #d6bab3;
+$info-hover: #d6bab3;
+$warning: #d6bab3;
+$warning-hover: #eadcd9;
+$danger: #d6bab3;
+$danger-hover: #eadcd9;
 $title-color: #111;
 $text-color: #666;
 $bg-color: #f8f8f8;
